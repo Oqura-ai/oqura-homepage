@@ -69,13 +69,14 @@ The future of AI research depends on our ability to generate high-quality, diver
 ]
 
 interface BlogPostPageProps {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
-  const post = blogPosts.find((p) => p.id === params.slug)
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const getparams = await params
+  const post = blogPosts.find((p) => p.id === getparams.slug)
 
   if (!post) {
     notFound()
