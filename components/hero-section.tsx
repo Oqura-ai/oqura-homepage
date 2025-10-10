@@ -21,7 +21,7 @@ export function HeroSection() {
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
               Open Source
             </span>
-            Tools
+            <span> Tools</span>
             <br />
               for Smarter <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
               AI
