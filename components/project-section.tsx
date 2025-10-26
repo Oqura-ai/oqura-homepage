@@ -43,14 +43,14 @@ const repositories = [
     image: "https://opengraph.githubassets.com/1/Oqura-ai/optim-rag",
     color: "bg-blue-500",
   },
-  {
-    name: "datazard.ai",
-    description: "Web-based dataset generation for finetuning llms",
-    language: "Typescript",
-    link: "https://github.com/Oqura-ai/datazard.ai",
-    image: "https://opengraph.githubassets.com/1/Oqura-ai/datazard.ai",
-    color: "bg-blue-500",
-  },
+  // {
+  //   name: "datazard.ai",
+  //   description: "Web-based dataset generation for finetuning llms",
+  //   language: "Typescript",
+  //   link: "https://github.com/Oqura-ai/datazard.ai",
+  //   image: "https://opengraph.githubassets.com/1/Oqura-ai/datazard.ai",
+  //   color: "bg-blue-500",
+  // },
   {
     name: "doc-sailor",
     description: "Browser extension for automated navigation through technical web documentations",
