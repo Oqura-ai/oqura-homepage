@@ -22,11 +22,11 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-5 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/80 backdrop-blur-md border-b border-border" : "bg-transparent"
-      }`}
+      className={`fixed top-5 w-full z-50 transition-all duration-300`}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className={`container mx-auto px-4 sm:px-6 lg:px-8 rounded-2xl ${
+        isScrolled ? "bg-background/100 backdrop-blur-md border-b border-border" : "bg-background/40"
+      }`}>
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-none rounded-lg flex items-center justify-center">
